@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="manifest" href="../shared/manifest.json" />
+    <link rel="stylesheet" href="../app/styles/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo">
+          <img src="" alt="Logo" class="header__logo-img" />
+          <span>BrandName</span>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li><a href="index.html" class="header__nav-link">Home</a></li>
+            <li><a href="about.html" class="header__nav-link">About us</a></li>
+            <li><a href="support.html" class="header__nav-link">Support</a></li>
+          </ul>
+        </nav>
+        <div class="header__actions">
+          <a href="sign-in.html" class="btn btn--secondary">Sign In</a>
+          <a href="sign-up.html" class="btn btn--primary">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="auth-wrapper">
+      <div class="auth-card">
+        <div class="auth-card__header">
+          <h1 class="auth-card__title">Login</h1>
+          <p class="auth-card__subtitle">Hesabınıza daxil olun</p>
+        </div>
+        <form action="#" class="auth-card__form">
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input
+              class="form-input"
+              type="email"
+              id="email"
+              placeholder="nümunə@email.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="password">Şifrə</label>
+            <input
+              class="form-input"
+              type="password"
+              id="password"
+              placeholder="••••••••"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Sign In
+          </button>
+        </form>
+        <div class="auth-card__footer">
+          Hesabınız yoxdur?
+          <a href="sign-up.html" class="auth-card__link">Sign Up</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo">
+              <img src="" alt="Logo" class="header__logo-img" />
+              <span>BrandName</span>
+            </a>
+            <p class="footer__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo,
+              illo!
+            </p>
+          </div>
+          <div>
+            <h4 class="footer__title">Səhifələr</h4>
+            <ul class="footer__list">
+              <li><a href="index.html" class="footer__link">Home</a></li>
+              <li><a href="about.html" class="footer__link">About us</a></li>
+              <li><a href="support.html" class="footer__link">Support</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__title">Əlaqə</h4>
+            <ul class="footer__list">
+              <li><a href="#" class="footer__link">info@brand.com</a></li>
+              <li><a href="#" class="footer__link">+994 50 000 00 00</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2026 BrandName. Bütün hüquqlar qorunur.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
