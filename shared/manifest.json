@@ -1,20 +1,21 @@
 {
-  "short_name": "App",
-  "name": "FSD PWA Application",
+  "short_name": "Brainwave",
+  "name": "Brainwave.io Auth Portal",
   "icons": [
     {
-      "src": "/assets/icon-192.png",
+      "src": "shared/assets/icons/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/icon-512.png",
+      "src": "shared/assets/icons/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/pages/index.html",
-  "background_color": "#ffffff",
-  "theme_color": "#4F46E5",
-  "display": "standalone"
+  "start_url": "/pages/sign-in.html",
+  "background_color": "#f4f7fa",
+  "theme_color": "#473bf0",
+  "display": "standalone",
+  "orientation": "portrait"
 }
