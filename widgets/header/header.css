@@ -14,6 +14,16 @@
   gap: 24px;
 }
 
+.header__inner:has(.logo:only-child),
+.header__inner:not(:has(.nav)) {
+  justify-content: center;
+}
+
+.header__inner:has(.logo:only-child) .header__burger,
+.header__inner:not(:has(.nav)) .header__burger {
+  display: none;
+}
+
 .logo {
   display: inline-block;
   font-family: "Roboto", sans-serif;
