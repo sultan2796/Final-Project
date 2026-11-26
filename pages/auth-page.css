@@ -1,0 +1,7 @@
+@import "../app/styles/global.css";
+@import "../shared/ui/button.css";
+@import "../shared/ui/input.css";
+@import "../shared/ui/card.css";
+@import "../widgets/header/header.css";
+@import "../widgets/auth-card/auth-card.css";
+@import "../widgets/footer/footer.css";

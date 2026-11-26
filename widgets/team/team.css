@@ -1,0 +1,136 @@
+.team-section {
+  background-color: var(--card-bg);
+  padding: 100px 0;
+}
+
+.team-section .section-intro {
+  max-width: 589px;
+  margin: 0 auto 72px;
+  text-align: center;
+}
+
+.team-section .section-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: #161c2d;
+  margin: 0 0 16px;
+}
+
+.team-section .section-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #161c2d;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 56px;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card__photo {
+  width: 100%;
+  aspect-ratio: 263 / 293;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.team-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.team-card__name {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #161c2d;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 60px 0;
+  }
+
+  .team-header {
+    margin-bottom: 36px;
+    padding: 0 4px;
+  }
+
+  .team-title {
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    margin-bottom: 12px;
+  }
+
+  .team-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .team-card__media {
+    border-radius: 14px;
+    border: 1px solid rgba(22, 28, 45, 0.06);
+    box-shadow: 0 12px 28px rgba(22, 28, 45, 0.08);
+    margin-bottom: 14px;
+  }
+
+  .team-card__media img {
+    object-position: center top;
+  }
+
+  .team-card__name {
+    font-size: 19px;
+    letter-spacing: -0.3px;
+  }
+
+  .team-card__role {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-section {
+    padding: 48px 0;
+  }
+
+  .team-title {
+    font-size: 28px;
+  }
+
+  .team-grid {
+    gap: 24px;
+  }
+
+  .team-card__media {
+    border-radius: 12px;
+  }
+}
